@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.7.5;
 
-import "@openzeppelin_/contracts/GSN/Context.sol";
-import "@openzeppelin_/contracts/token/ERC20/IERC20.sol";
-import "@openzeppelin_/contracts/token/ERC20/SafeERC20.sol";
-import "@openzeppelin_/contracts/math/SafeMath.sol";
-import "@openzeppelin_/contracts/utils/Address.sol";
-import "@openzeppelin_/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts-3.4.1/GSN/Context.sol";
+import "@openzeppelin/contracts-3.4.1/token/ERC20/IERC20.sol";
+import "@openzeppelin/contracts-3.4.1/token/ERC20/SafeERC20.sol";
+import "@openzeppelin/contracts-3.4.1/math/SafeMath.sol";
+import "@openzeppelin/contracts-3.4.1/utils/Address.sol";
+import "@openzeppelin/contracts-3.4.1/access/Ownable.sol";
 
 contract UnoPresale is Ownable {
     using SafeERC20 for IERC20;
